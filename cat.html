@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/main.css" />
+		<meta charset="utf-8" />
+		<style>
+			.picture-holder a {
+				display: block;
+				margin-bottom: 10px;
+			}
+		</style>
+    	<title>КОШКА</title>   
+	</head>
+	<body> 
+		<script>
+			function play(){
+				 var audio = document.getElementById("audio");
+				 audio.play();
+						   }
+			 </script>
+		  
+		<h1 id="hdr1">Это кошка!</h1>
+		<div class="picture-holder">
+			<a href="index_.html">Оглавление сайта</a> 
+			<img src="images/cat.jpg" value="PLAY" onmouseover="play()">
+		    <audio id="audio" src="sound/cat.mp3" ></audio>
+		
+		</div>
+	</body>
+</html>
