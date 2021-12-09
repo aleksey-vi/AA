@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include($_ENV["MYAPP_CONFIG"]);
+    include(getenv("MYAPP_CONFIG"));
 ?>
 <html>
     <head>
