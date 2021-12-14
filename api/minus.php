@@ -10,7 +10,7 @@ include(getenv("MYAPP_CONFIG"));
 // привелегий" по хорошему юзера руут нельзя указывать с точки зрения ИБ)
 // после руута указывается пароль, в нашем случае он пустой и это тоже не правильно
 // 4й параметр это название базы данных
-//$conn = mysqli_connect("localhost","root","","calc");
+//$conn = mysqli_connect("localhost","root","","calc")
 $conn = mysqli_connect($DB_URL,$DB_USER,$DB_PWD,$DB_NAME);
 // создадим переменную sql и пропишем sql команды, в скобках перечисляем столбцы в нашей таблице log 
 // в values казываем значения
