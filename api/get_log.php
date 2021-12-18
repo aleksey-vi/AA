@@ -8,7 +8,7 @@
 
     $user = $_SESSION['user'];
 
-    include(getenv("MYAPP_CONFIG"));
+    include ('/var/www/html/params.php');
    
 
            
